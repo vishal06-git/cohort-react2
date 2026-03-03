@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+  background-color:rgb(22, 101, 101);
+}
+.card{
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 15px;
+  flex: content;
+  background: rgb(207, 86, 107);
+}
+
+.button{
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  flex: content;
+  justify-content: center;
+  background: pink;
+  border: none;
+}
