@@ -1,0 +1,15 @@
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
+import Sections from './components/Section'
+
+const App = () => {
+  return (
+    <div className='app-div'>
+      <Navbar />
+      <Sections />
+      <Footer/>
+    </div>
+  )
+}
+
+export default App
